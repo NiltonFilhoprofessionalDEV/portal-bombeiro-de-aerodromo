@@ -1,4 +1,4 @@
-const CACHE_NAME = "portal-bombeiro-v17";
+const CACHE_NAME = "portal-bombeiro-v18";
 
 const PRECACHE = [
   "./",

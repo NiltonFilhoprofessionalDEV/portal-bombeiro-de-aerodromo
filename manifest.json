@@ -1,6 +1,6 @@
 {
   "name": "Portal do Bombeiro de Aeródromo",
-  "short_name": "Portal Bombeiro",
+  "short_name": "Portal do Bombeiro de Aeródromo",
   "description": "Aqui você encontra pastas de PTR, POP, manuais, legislação e formulários, além dos sistemas do dia a dia, com orientação de primeiro acesso.",
   "start_url": "./index.html",
   "scope": "./",
