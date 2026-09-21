@@ -16,14 +16,11 @@
 
   .card-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-5);
   }
 
-  .resource-card {
-    grid-template-columns: 110px 1fr;
-  }
-
-  .resource-card--system {
-    grid-template-columns: 110px 1fr;
+  .resource-card__body {
+    padding: var(--space-5);
   }
 
   .category-grid {

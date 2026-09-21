@@ -210,7 +210,7 @@ function renderHero() {
 function renderResourceCard(resource, index = 0) {
   const favored = isFavorite(resource.id, localStorage, PORTAL_CONFIG.storageKeys.favorites);
   const access = resource.access
-    ? `<p class="resource-card__access"><span class="resource-card__access-label">Como acessar</span>${escapeHtml(resource.access)}</p>`
+    ? `<div class="resource-card__access"><span class="resource-card__access-label">Como acessar</span><p class="resource-card__access-text">${escapeHtml(resource.access)}</p></div>`
     : "";
   const systemClass = resource.type === "system" ? " resource-card--system" : "";
   const hasStores = Boolean(resource.stores?.apple || resource.stores?.android);
