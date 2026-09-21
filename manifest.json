@@ -1,0 +1,32 @@
+{
+  "name": "Portal do Bombeiro de Aeródromo",
+  "short_name": "Portal Bombeiro",
+  "description": "Aqui você encontra pastas de PTR, POP, manuais, legislação e formulários, além dos sistemas do dia a dia, com orientação de primeiro acesso.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b0d10",
+  "theme_color": "#0b0d10",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

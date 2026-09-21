@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Portal do Bombeiro">
+  <defs>
+    <linearGradient id="g" x1="20" y1="8" x2="108" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C1121F"/>
+      <stop offset="1" stop-color="#780000"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#0B0D10"/>
+  <path d="M64 14L98 30V58C98 84 80 104 64 112C48 104 30 84 30 58V30L64 14Z" fill="url(#g)"/>
+  <path d="M64 28L86 38V58C86 76 74 90 64 96C54 90 42 76 42 58V38L64 28Z" fill="#0B0D10" opacity=".35"/>
+  <path d="M64 46c8 8 12 14 12 22a12 12 0 1 1-24 0c0-8 4-14 12-22Z" fill="#F0A202"/>
+  <path d="M28 88h72" stroke="#F5F6F7" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+  <path d="M36 96h56" stroke="#F0A202" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+</svg>
