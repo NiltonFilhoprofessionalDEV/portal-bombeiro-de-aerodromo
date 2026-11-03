@@ -1,4 +1,4 @@
-const CACHE_NAME = "portal-bombeiro-v18";
+const CACHE_NAME = "portal-bombeiro-v20";
 
 const PRECACHE = [
   "./",
@@ -12,6 +12,7 @@ const PRECACHE = [
   "./js/search.js",
   "./js/favorites.js",
   "./assets/logo/logo.svg",
+  "./assets/decorations/med-cross.svg",
   "./assets/hero/hero-main.png",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
@@ -21,6 +22,7 @@ const PRECACHE = [
   "./assets/categories/legislacao.png",
   "./assets/categories/formularios.png",
   "./assets/categories/sistemas.png",
+  "./assets/systems/mais-gestao.png",
   "./assets/systems/intramed.png",
   "./assets/systems/next.png",
   "./assets/systems/unicorp.png",

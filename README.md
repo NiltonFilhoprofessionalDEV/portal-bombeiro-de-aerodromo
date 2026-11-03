@@ -180,6 +180,7 @@ Substitua um por um:
 - FORMULARIOS PARA CREDENCIAMENTO
 
 ### Sistemas
+- Checklist Med Mais (Mais Gestão) — link configurado e em destaque na página inicial
 - Intramed+ (Fluig) — link configurado
 - NEXTI - PONTO ELETRÔNICO — coloque os links das lojas em `stores.apple` e `stores.android`
 - Unicop — link configurado
