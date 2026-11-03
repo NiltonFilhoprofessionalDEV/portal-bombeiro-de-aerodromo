@@ -276,6 +276,41 @@ function renderCardList(resources, emptyMessage) {
   return `<div class="card-list">${resources.map(renderResourceCard).join("")}</div>`;
 }
 
+function renderHomeHighlight() {
+  const highlight = PORTAL_CONFIG.homeHighlight;
+  if (!highlight?.resourceId) return "";
+
+  const resource = findResource(highlight.resourceId);
+  if (!resource) return "";
+
+  return `
+    <section class="section section--highlight" aria-labelledby="home-highlight-title">
+      <aside class="home-highlight fade-in" role="note">
+        <div class="home-highlight__glow" aria-hidden="true"></div>
+        <div class="home-highlight__body">
+          <span class="home-highlight__badge">${escapeHtml(highlight.badge || "Aviso")}</span>
+          <h2 id="home-highlight-title" class="home-highlight__title">${escapeHtml(highlight.title)}</h2>
+          <p class="home-highlight__text">${escapeHtml(highlight.message)}</p>
+          <div class="home-highlight__actions">
+            <button
+              type="button"
+              class="btn btn--primary"
+              data-action="open"
+              data-id="${escapeHtml(resource.id)}"
+            >Abrir checklist</button>
+            <button
+              type="button"
+              class="btn btn--ghost"
+              data-action="nav"
+              data-view="sistemas"
+            >Ver sistemas</button>
+          </div>
+        </div>
+      </aside>
+    </section>
+  `;
+}
+
 function renderCategories() {
   const order = ["PTR", "Operações", "Manuais", "Legislação", "Formulários", "Sistemas"];
   return `
@@ -341,6 +376,7 @@ function renderHome() {
   }
   return `
     ${renderHero()}
+    ${renderHomeHighlight()}
     ${renderCategories()}
   `;
 }
@@ -357,12 +393,23 @@ function renderDocumentos() {
 }
 
 function renderSistemas() {
+  const highlightId = PORTAL_CONFIG.homeHighlight?.resourceId;
   const systems = filterResources(
     PORTAL_RESOURCES.filter((item) => item.type === "system"),
     state.query
-  );
+  ).slice();
+
+  if (highlightId) {
+    systems.sort((a, b) => Number(b.id === highlightId) - Number(a.id === highlightId));
+  }
+
   return `
     ${renderViewHeader("Sistemas e portais", PORTAL_CONFIG.systemsIntro)}
+    ${
+      highlightId && !state.query.trim()
+        ? `<p class="section__note">Em destaque: checklist da Med Mais (Mais Gestão) — use o primeiro card abaixo.</p>`
+        : ""
+    }
     ${renderCardList(systems, PORTAL_CONFIG.emptyCategory)}
   `;
 }

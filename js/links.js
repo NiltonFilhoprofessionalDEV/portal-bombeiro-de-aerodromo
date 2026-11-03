@@ -150,6 +150,29 @@ export const PORTAL_RESOURCES = [
     featured: true
   },
   {
+    id: "sys-mais-gestao",
+    title: "CHECKLIST MED MAIS (Mais Gestão)",
+    description: "App de checklist da Med Mais",
+    access:
+      "Aviso em destaque — abra o link oficial do Mais Gestão e faça login para preencher o checklist da Med Mais. Use somente este endereço.",
+    category: "Sistemas",
+    type: "system",
+    icon: "✅",
+    image: "./assets/systems/mais-gestao.png",
+    url: "https://app-maisgestao.containersoftware.com.br/#/login",
+    tags: [
+      "mais gestao",
+      "maisgestao",
+      "checklist",
+      "medmais",
+      "med mais",
+      "sistema",
+      "app",
+      "aviso"
+    ],
+    featured: true
+  },
+  {
     id: "sys-intramed",
     title: "INTRAMED+ (Fluig)",
     description: "Portal Intramed+",

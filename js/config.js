@@ -14,6 +14,13 @@ export const PORTAL_CONFIG = {
   linkNotConfigured: "Link ainda não configurado. Coloque o endereço em js/links.js.",
   systemsIntro:
     "Use somente os links oficiais abaixo. Não pesquise no Google — os endereços são configurados com os dados da Medmais.",
+  homeHighlight: {
+    resourceId: "sys-mais-gestao",
+    badge: "Aviso Med+",
+    title: "App de checklist da Med Mais",
+    message:
+      "Novo sistema em destaque: abra o Mais Gestão para fazer o checklist. O link também está em Sistemas."
+  },
   categoriesMeta: {
     PTR: {
       title: "PTR",
@@ -45,7 +52,7 @@ export const PORTAL_CONFIG = {
     Sistemas: {
       title: "Sistemas",
       description:
-        "Intramed+, Nexti, Unicorp, Meu RH, Academia CCR, inspeção de extintores e links de credenciamento (SISCAER e nada consta).",
+        "Checklist Med Mais (Mais Gestão), Intramed+, Nexti, Unicorp, Meu RH, Academia CCR, inspeção de extintores e links de credenciamento (SISCAER e nada consta).",
       image: "./assets/categories/sistemas.png"
     }
   }
