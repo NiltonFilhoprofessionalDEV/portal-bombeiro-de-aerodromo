@@ -4,7 +4,7 @@ export const PORTAL_CONFIG = {
     "Aqui você encontra pastas de PTR, POP, manuais, legislação e formulários, além dos sistemas do dia a dia (Intramed+, Nexti, Unicop, Meu RH e Academia CCR), com orientação de primeiro acesso.",
   searchPlaceholder: "O que você procura?",
   logo: "./assets/logo/logo.svg",
-  heroImage: "./assets/hero/hero-main.png",
+  heroImage: "./assets/hero/hero-main.jpg",
   storageKeys: {
     favorites: "portal-bombeiro:favorites"
   },
@@ -26,34 +26,34 @@ export const PORTAL_CONFIG = {
       title: "PTR",
       description:
         "Cronograma anual, instruções e documentos de treinamento PTR-BA.",
-      image: "./assets/categories/ptr.png"
+      image: "./assets/categories/ptr.jpg"
     },
     Operações: {
       title: "Operações",
       description:
         "POP, PLEM, PCINC, PRAI e demais procedimentos operacionais.",
-      image: "./assets/categories/operacoes.png"
+      image: "./assets/categories/operacoes.jpg"
     },
     Manuais: {
       title: "Manuais",
       description: "Manuais ANAC, CCI, CBMGO e material técnico de consulta.",
-      image: "./assets/categories/manuais.png"
+      image: "./assets/categories/manuais.jpg"
     },
     Legislação: {
       title: "Legislação",
       description: "RBAC, TOPs REA, Instruções Suplementares e normas.",
-      image: "./assets/categories/legislacao.png"
+      image: "./assets/categories/legislacao.jpg"
     },
     Formulários: {
       title: "Formulários",
       description: "Troca de serviço, credenciamento e formulários do dia a dia.",
-      image: "./assets/categories/formularios.png"
+      image: "./assets/categories/formularios.jpg"
     },
     Sistemas: {
       title: "Sistemas",
       description:
         "Checklist Med Mais (Mais Gestão), Intramed+, Nexti, Unicorp, Meu RH, Academia CCR, inspeção de extintores e links de credenciamento (SISCAER e nada consta).",
-      image: "./assets/categories/sistemas.png"
+      image: "./assets/categories/sistemas.jpg"
     }
   }
 };

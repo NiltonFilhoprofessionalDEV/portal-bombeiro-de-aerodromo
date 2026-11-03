@@ -40,7 +40,7 @@ Exemplo:
   category: "PTR",
   type: "document",
   icon: "📋",
-  image: "./assets/categories/ptr.png",
+  image: "./assets/categories/ptr.jpg",
   url: "COLE_O_LINK_AQUI",
   tags: ["ptr", "palavra-chave"],
   featured: false
@@ -78,7 +78,7 @@ As imagens ficam em:
 | `assets/icons/` | Ícones do aplicativo (PWA) |
 
 **Troque o arquivo mantendo o mesmo nome.**  
-Exemplo: substitua `assets/hero/hero-main.png` por outra imagem com esse mesmo nome.
+Exemplo: substitua `assets/hero/hero-main.jpg` por outra imagem com esse mesmo nome.
 
 Não precisa mexer no layout.
 
@@ -98,7 +98,7 @@ Se mudar o nome do arquivo, atualize o caminho em:
 NovaCategoria: {
   title: "NovaCategoria",
   description: "Descrição curta",
-  image: "./assets/categories/sua-imagem.png"
+  image: "./assets/categories/sua-imagem.jpg"
 }
 ```
 
@@ -126,12 +126,12 @@ logo: "./assets/logo/seu-logo.png",
 
 Substitua:
 
-`assets/hero/hero-main.png`
+`assets/hero/hero-main.jpg`
 
 Ou altere em `js/config.js`:
 
 ```js
-heroImage: "./assets/hero/hero-main.png",
+heroImage: "./assets/hero/hero-main.jpg",
 ```
 
 ---

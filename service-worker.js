@@ -1,4 +1,4 @@
-const CACHE_NAME = "portal-bombeiro-v20";
+const CACHE_NAME = "portal-bombeiro-v21";
 
 const PRECACHE = [
   "./",
@@ -13,21 +13,21 @@ const PRECACHE = [
   "./js/favorites.js",
   "./assets/logo/logo.svg",
   "./assets/decorations/med-cross.svg",
-  "./assets/hero/hero-main.png",
+  "./assets/hero/hero-main.jpg",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png",
-  "./assets/categories/ptr.png",
-  "./assets/categories/operacoes.png",
-  "./assets/categories/manuais.png",
-  "./assets/categories/legislacao.png",
-  "./assets/categories/formularios.png",
-  "./assets/categories/sistemas.png",
-  "./assets/systems/mais-gestao.png",
-  "./assets/systems/intramed.png",
-  "./assets/systems/next.png",
-  "./assets/systems/unicorp.png",
-  "./assets/systems/meu-rh.png",
-  "./assets/systems/academia-ccr.png"
+  "./assets/categories/ptr.jpg",
+  "./assets/categories/operacoes.jpg",
+  "./assets/categories/manuais.jpg",
+  "./assets/categories/legislacao.jpg",
+  "./assets/categories/formularios.jpg",
+  "./assets/categories/sistemas.jpg",
+  "./assets/systems/mais-gestao.jpg",
+  "./assets/systems/intramed.jpg",
+  "./assets/systems/next.jpg",
+  "./assets/systems/unicorp.jpg",
+  "./assets/systems/meu-rh.jpg",
+  "./assets/systems/academia-ccr.jpg"
 ];
 
 self.addEventListener("install", (event) => {
