@@ -24,7 +24,7 @@ export const PORTAL_RESOURCES = [
     category: "PTR",
     type: "document",
     icon: "📋",
-    image: "./assets/documents/cronograma.png",
+    image: "./assets/documents/cronograma.jpg",
     url: "https://drive.google.com/drive/folders/1uXOp8AvWKyJbtBgom4BONRDwpLFuRr76?usp=drive_link",
     tags: ["ptr", "cronograma", "anual", "ptr-ba", "treinamento"],
     featured: true
@@ -36,7 +36,7 @@ export const PORTAL_RESOURCES = [
     category: "PTR",
     type: "document",
     icon: "📋",
-    image: "./assets/documents/instrucoes-ptr.png",
+    image: "./assets/documents/instrucoes-ptr.jpg",
     url: "https://drive.google.com/drive/folders/0ByeZqp-_99nZNXZCRzV2VGpXU1k?resourcekey=0-9ih4HxeOcFv_CW-Qp881cw",
     tags: ["ptr", "instrucoes", "ptr-ba", "drive"],
     featured: false
@@ -48,7 +48,7 @@ export const PORTAL_RESOURCES = [
     category: "Operações",
     type: "document",
     icon: "🚒",
-    image: "./assets/documents/pop.png",
+    image: "./assets/documents/pop.jpg",
     url: "https://drive.google.com/drive/folders/1ge5_5t1QC7dSXkrU4mjUtzuf4hVuD-Jp?usp=drive_link",
     tags: ["pop", "procedimento", "operacoes", "padrao"],
     featured: true
@@ -60,7 +60,7 @@ export const PORTAL_RESOURCES = [
     category: "Operações",
     type: "document",
     icon: "🚒",
-    image: "./assets/documents/plem.png",
+    image: "./assets/documents/plem.jpg",
     url: "https://drive.google.com/drive/folders/1BUN2er5eGUG14h78LfFxHuOB6Z3zQXVq?usp=drive_link",
     tags: ["plem", "pcinc", "prai", "operacoes", "pc5"],
     featured: false
@@ -72,7 +72,7 @@ export const PORTAL_RESOURCES = [
     category: "Manuais",
     type: "document",
     icon: "📚",
-    image: "./assets/documents/anac.png",
+    image: "./assets/documents/anac.jpg",
     url: "https://drive.google.com/drive/folders/1efdcbdRTkrK86HxFjVaJaCBqrje6Q53g?usp=drive_link",
     tags: ["manual", "anac", "aviacao"],
     featured: true
@@ -84,7 +84,7 @@ export const PORTAL_RESOURCES = [
     category: "Manuais",
     type: "document",
     icon: "📚",
-    image: "./assets/documents/cci.png",
+    image: "./assets/documents/cci.jpg",
     url: "https://drive.google.com/drive/folders/16_j3OeRCQxWYzYTnSZ1yp-q9-ylozeRW?usp=drive_link",
     tags: ["manual", "cci", "viatura", "equipamento"],
     featured: false
@@ -96,7 +96,7 @@ export const PORTAL_RESOURCES = [
     category: "Manuais",
     type: "document",
     icon: "📚",
-    image: "./assets/documents/cbmgo.png",
+    image: "./assets/documents/cbmgo.jpg",
     url: "https://drive.google.com/drive/folders/1kcTxTzR1yikd-0Nw046lvQSgXTYpjX0t?usp=drive_link",
     tags: ["manual", "cbmgo", "bombeiro"],
     featured: false
@@ -108,7 +108,7 @@ export const PORTAL_RESOURCES = [
     category: "Legislação",
     type: "document",
     icon: "⚖️",
-    image: "./assets/documents/rbac.png",
+    image: "./assets/documents/rbac.jpg",
     url: "https://drive.google.com/drive/folders/1BRisfkx8ZkZjuaDt6fdjBGXXE5YTk5fk?usp=drive_link",
     tags: ["rbac", "tops", "rea", "legislacao", "norma"],
     featured: true
@@ -120,7 +120,7 @@ export const PORTAL_RESOURCES = [
     category: "Legislação",
     type: "document",
     icon: "⚖️",
-    image: "./assets/documents/is.png",
+    image: "./assets/documents/is.jpg",
     url: "https://drive.google.com/drive/folders/1tm5UuPa1GmLoVQ4GZlLvxBcOyEABga6v?usp=drive_link",
     tags: ["is", "instrucao", "suplementar", "legislacao", "norma"],
     featured: false
@@ -132,7 +132,7 @@ export const PORTAL_RESOURCES = [
     category: "Formulários",
     type: "document",
     icon: "📝",
-    image: "./assets/documents/troca.png",
+    image: "./assets/documents/troca.jpg",
     url: "https://drive.google.com/drive/folders/13k4OA9jpbmu7mckS8WaA8JH6QXrNDvRa?usp=drive_link",
     tags: ["formulario", "troca", "servico", "plantao"],
     featured: true
@@ -144,7 +144,7 @@ export const PORTAL_RESOURCES = [
     category: "Formulários",
     type: "document",
     icon: "📝",
-    image: "./assets/documents/credenciamento.png",
+    image: "./assets/documents/credenciamento.jpg",
     url: "https://drive.google.com/drive/folders/1-AhJ7UMYXBO9aKkoeO-D6pu0b0CenYIV?usp=drive_link",
     tags: ["formulario", "credenciamento", "acesso"],
     featured: true
@@ -158,7 +158,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "✅",
-    image: "./assets/systems/mais-gestao.png",
+    image: "./assets/systems/mais-gestao.jpg",
     url: "https://app-maisgestao.containersoftware.com.br/#/login",
     tags: [
       "mais gestao",
@@ -181,7 +181,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🌐",
-    image: "./assets/systems/intramed.png",
+    image: "./assets/systems/intramed.jpg",
     url: "https://portal.medmais.com/portal/p/0101001/home",
     tags: ["intramed", "fluig", "sistema", "portal", "medmais"],
     featured: false
@@ -195,7 +195,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🕐",
-    image: "./assets/systems/next.png",
+    image: "./assets/systems/next.jpg",
     url: "",
     stores: {
       apple: "https://apps.apple.com/br/app/nexti/id1242457098",
@@ -213,7 +213,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🌐",
-    image: "./assets/systems/unicorp.png",
+    image: "./assets/systems/unicorp.jpg",
     url: "https://universidade.medmais.com/login/index.php",
     tags: ["unicop", "unicorp", "universidade", "sistema", "portal", "medmais"],
     featured: false
@@ -227,7 +227,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "👤",
-    image: "./assets/systems/meu-rh.png",
+    image: "./assets/systems/meu-rh.jpg",
     url: "https://meurh.medmais.com/01/#/login",
     tags: ["rh", "holerite", "contracheque", "sistema", "funcionario", "medmais"],
     featured: true
@@ -240,7 +240,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🎓",
-    image: "./assets/systems/academia-ccr.png",
+    image: "./assets/systems/academia-ccr.jpg",
     url: "http://academia.ccraeroportos.com.br/",
     tags: ["academia", "ccr", "curso", "certificado", "credenciamento", "treinamento"],
     featured: true
@@ -253,7 +253,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🧯",
-    image: "./assets/systems/extintores.png",
+    image: "./assets/systems/extintores.jpg",
     url: "https://firechecklist.vercel.app/login",
     tags: ["extintor", "inspecao", "checklist", "firechecklist", "sistema", "app"],
     featured: true
@@ -267,7 +267,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🌐",
-    image: "./assets/systems/siscaer.png",
+    image: "./assets/systems/siscaer.jpg",
     url: "https://servicos.pf.gov.br/siscaer-publico-web/#/cadastro",
     tags: ["siscaer", "credenciamento", "policia", "federal", "cadastro", "sistema"],
     featured: true
@@ -281,7 +281,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🌐",
-    image: "./assets/systems/nada-consta-goias.png",
+    image: "./assets/systems/nada-consta-goias.jpg",
     url: "https://projudi.tjgo.jus.br/CertidaoNegativaPositivaPublica?PaginaAtual=1&TipoArea=2&InteressePessoal=S",
     tags: ["nada consta", "certidao", "goias", "tjgo", "credenciamento", "sistema"],
     featured: true
@@ -295,7 +295,7 @@ export const PORTAL_RESOURCES = [
     category: "Sistemas",
     type: "system",
     icon: "🌐",
-    image: "./assets/systems/nada-consta-federal.png",
+    image: "./assets/systems/nada-consta-federal.jpg",
     url: "COLE_O_LINK_AQUI",
     tags: ["nada consta", "certidao", "federal", "gov", "credenciamento", "sistema"],
     featured: true
